@@ -3,6 +3,9 @@ require('prototypes.other')
 require('prototypes.recipe')
 require('prototypes.entity')
 require('prototypes.technology')
+if mods['elevated-rails'] then
+  require('prototypes.sloped-trains-updates')
+end
 data.raw["cargo-wagon"]["cargo-wagon"].max_speed = 20
 data.raw["artillery-wagon"]["artillery-wagon"].max_speed = 20
 data.raw["fluid-wagon"]["fluid-wagon"].max_speed = 20
