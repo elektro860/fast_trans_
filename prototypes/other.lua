@@ -346,4 +346,3 @@ for _, module in pairs(data.raw.module) do
     end
   end
 end
-end ;

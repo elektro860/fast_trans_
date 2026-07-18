@@ -10,7 +10,7 @@ local drive_over_tie = function()
     type = "play-sound",
     sound =
     {
-      category = "environment",
+      categories = { "environment" },
       variations = sound_variations("__base__/sound/train-tie",
                                     6,
                                     0.4,
@@ -1324,7 +1324,6 @@ data:extend({
     drive_over_tie_trigger_minimal_speed = 0.5,
     tie_distance = 50,
     working_sound = sounds.train_wagon_wheels,
-    crash_trigger = crash_trigger(),
     open_sound = sounds.cargo_wagon_open,
     close_sound = sounds.cargo_wagon_close,
     impact_category = "metal-large",
@@ -1483,7 +1482,6 @@ data:extend({
     drive_over_tie_trigger_minimal_speed = 0.5,
     tie_distance = 50,
     working_sound = sounds.train_wagon_wheels,
-    crash_trigger = crash_trigger(),
     impact_category = "metal-large",
     water_reflection = locomotive_reflection()
   },
@@ -1664,7 +1662,6 @@ data:extend({
     drive_over_tie_trigger_minimal_speed = 0.5,
     tie_distance = 50,
     working_sound = sounds.train_wagon_wheels,
-    crash_trigger = crash_trigger(),
     open_sound = sounds.cargo_wagon_open,
     close_sound = sounds.cargo_wagon_close,
     impact_category = "metal-large",
@@ -1815,7 +1812,6 @@ data:extend({
     drive_over_tie_trigger_minimal_speed = 0.5,
     tie_distance = 50,
     working_sound = sounds.train_wagon_wheels,
-    crash_trigger = crash_trigger(),
     impact_category = "metal-large",
     water_reflection = locomotive_reflection()
   },

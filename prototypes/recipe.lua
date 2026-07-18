@@ -56,7 +56,7 @@ data:extend({
 {
     type = "recipe",
     name = "giga-fuel-from-light-oil-and-coal",
-    category = "crafting-with-fluid",
+    categories = { "crafting-with-fluid" },
     enabled =  true ,
     ingredients =
     {
@@ -72,7 +72,7 @@ data:extend({
 {
     type = "recipe",
     name = "giga-fuel-from-heavy-oil-and-coal",
-    category = "crafting-with-fluid",
+    categories = { "crafting-with-fluid" },
     enabled =  true ,
     ingredients =
     {
